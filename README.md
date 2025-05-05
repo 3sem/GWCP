@@ -15,8 +15,6 @@ which can be then visualized using GraphViz or [this website](https://dreampuf.g
 
 You can build the program with CMake. 
 
-`boost::program_options` is required.
-
 ### Usage
 
 The string to generate derivation from can be passed via CLI, via stdin or as a file.
