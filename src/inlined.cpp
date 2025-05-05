@@ -7,7 +7,6 @@
 #include <sstream>
 #include <iostream>
 #include <fstream>
-#include <boost/program_options.hpp>
 #include "grammar.h"
 
 
@@ -243,8 +242,6 @@ derivation_table build_derivation(const grammar &_grammar, const std::vector<int
 #define ERROR "\e[31;1mCRITICAL ERROR:\u001b[37;0m "
 #define WARNING "\e[33;1mWARNING:\u001b[37;0m "
 #define INPUT "\e[36;1m> \u001b[37;0m"
-
-namespace arg_parse = boost::program_options;
 
 template<typename T>
 void warn(T warning_message) {
